@@ -5,3 +5,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#takes-two-game {
+  min-height: 80vh;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#new-games {
+  background-color: #1f1f1f;
+}
