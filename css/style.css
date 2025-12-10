@@ -1,3 +1,8 @@
+/* Header */
+
+.logo {
+  max-height: 16px;
+}
 #intro-game {
   min-height: 80vh;
   background-image: url(../img/jumbo-bg.png);
@@ -6,6 +11,38 @@
   background-size: cover;
 }
 
+.btn-play {
+  background-color: black;
+  padding: 6px 10px;
+  color: white;
+}
+.btn-play:hover {
+  outline: 1px solid black;
+  outline-offset: 2px;
+}
+
+.btn-red {
+  background-color: #cd3d10;
+  padding: 6px 10px;
+  color: white;
+}
+.btn-red:hover {
+  outline: 1px solid #cd3d10;
+  outline-offset: 2px;
+}
+
+/* Ps Items */
+
+.btn-blu {
+  background-color: #2c64e6;
+  padding: 6px 10px;
+  color: white;
+}
+.btn-blu:hover {
+  outline: 1px solid #2c64e6;
+  outline-offset: 2px;
+}
+/* Sfondo metà pagina */
 #takes-two-game {
   min-height: 80vh;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -14,18 +51,39 @@
   background-size: cover;
 }
 
+/* Nuove uscite */
 #new-games {
   background-color: #1f1f1f;
 }
-
+/* Ps Plus */
 #ps-plus {
   background-color: #bcbab9;
 }
+.btn-gray {
+  background-color: #d9dadc;
+  color: blue;
+  padding: 6px 10px;
+}
+.btn-gray:hover {
+  outline: 1px solid #d9dadc;
+  outline-offset: 2px;
+}
 
+/* Ps Now */
 #ps-now {
   background-color: #161b3b;
 }
 
+.btn-white {
+  background-color: white;
+  padding: 6px 10px;
+  color: black;
+}
+.btn-white:hover {
+  outline: 1px solid white;
+  outline-offset: 2px;
+}
+/* Footer */
 #footer {
   background-color: rgb(0, 67, 156);
 }
