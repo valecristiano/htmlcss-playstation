@@ -57,12 +57,17 @@
   outline-offset: 2px;
 }
 
-.b-line {
-  border-bottom: 1px solid #2c64e6;
+.b-blu {
+  opacity: 0.5;
 }
 
 .b-blu:hover {
   border-bottom: 1px solid #2c64e6;
+  opacity: 1;
+}
+.b-line {
+  border-bottom: 1px solid #2c64e6;
+  opacity: 1;
 }
 
 /* Sfondo metà pagina */
