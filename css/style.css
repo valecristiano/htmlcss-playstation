@@ -43,6 +43,9 @@
 
 .card-move:hover {
   translate: 0 -10px;
+  border: 2px solid #2c64e6;
+  border-radius: 20px;
+  padding: 2px;
 }
 
 /* PS5 Items */
@@ -140,5 +143,16 @@
 @media (min-width: 992px) {
   .w-lg-1-2 {
     width: calc(100% / 2);
+  }
+}
+@media (min-width: 768px) {
+  .w-md-lg {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-md-lg {
+    width: 50%;
   }
 }
