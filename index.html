@@ -20,6 +20,7 @@
 
   <body>
     <!-- HEADER -->
+    <!-- Navbar left -->
     <header id="nav-header">
       <div class="bg-dark text-end p-2"><img class="logo" src="./img/sony_logo.svg" alt="Logo Sony" /></div>
       <div class="">
@@ -94,6 +95,7 @@
                   </ul>
                 </li>
               </ul>
+              <!-- Navbar right -->
               <div class="d-flex justify-content-between align-items-center gap-4">
                 <div class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> My PlayStation </a>
@@ -105,7 +107,7 @@
                   </ul>
                 </div>
                 <a href="#" class="rounded-pill btn-play text-decoration-none" type="submit">Accedi</a>
-                <div><i class="bi bi-search"></i></div>
+                <div><img class="img-fluid lente pb-2" src="./img/lens.svg" alt="" /></div>
               </div>
             </div>
           </div>
@@ -118,6 +120,7 @@
       <section id="intro-game" class="d-flex align-items-end text-white mb-4">
         <div class="container">
           <div class="w-lg-1-3 mb-5">
+            <img class="img-fluid w-lg-1-3-2 py-3" src="./img/returnal-hero-banner-logo.png" alt="Logo returnal" />
             <h2>Rompi il cerchio</h2>
             <p class="">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
             <a href="#" type="button" class="btn-red rounded-pill text-decoration-none">Acquista ora</a>
@@ -159,31 +162,38 @@
           </div>
         </div>
       </section>
-      <!-- PS Items -->
+      <!-- PS5 Items -->
       <section id="mid-game">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 col-md-6 text-center">
+            <div class="col-12 col-md-4 text-center">
               <h2 class="h1">Console PlayStation 5</h2>
               <p>Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
               <a href="#" type="button" class="btn-blu rounded-pill text-decoration-none">Maggiori informazioni</a>
             </div>
-            <div class="col-12 col-md-6 text-center"><img class="img-fluid w-75" src="./img/playstation-5-thumb.png" alt="playstation5" /></div>
+            <div class="col-12 col-md-8 text-center"><img class="img-fluid w-75" src="./img/playstation-5-thumb.png" alt="playstation5" /></div>
           </div>
           <div class="row row-cols-3 row-cols-md-5 mb-4">
-            <div class="col">
-              <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">
-                <img class="img-fluid border border-0" src="./img/playstation-5-thumb.png" alt="playstation5"
-              /></a>
+            <div class="col b-blu b-line p-4">
+              <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="playstation5" />
+              <p class="text-center">Console PS5</p>
             </div>
-            <div class="col">
-              <span class="link-underline"
-                ><button type="button" class="btn"><img class="img-fluid" src="./img/joypad-thumb.png" alt="joypad" /></button
-              ></span>
+            <div class="col b-blu opacity-50">
+              <img class="img-fluid p-4" src="./img/joypad-thumb.png" alt="joypad" />
+              <p class="text-center">Controller wireless Dualsense</p>
             </div>
-            <div class="col"><img class="img-fluid" src="./img/headset-thumb.png" alt="headset" /></div>
-            <div class="col"><img class="img-fluid" src="./img/remote-thumb.png" alt="remote" /></div>
-            <div class="col"><img class="img-fluid" src="./img/camera-thumb.jpg" alt="camera" /></div>
+            <div class="col b-blu opacity-50">
+              <img class="img-fluid p-4" src="./img/headset-thumb.png" alt="headset" />
+              <p class="text-center">Cuffie wireless con microfono Pulse 3</p>
+            </div>
+            <div class="col b-blu opacity-50">
+              <img class="img-fluid p-4" src="./img/remote-thumb.png" alt="remote" />
+              <p class="text-center">Telecomando Media</p>
+            </div>
+            <div class="col b-blu opacity-50">
+              <img class="img-fluid p-4" src="./img/camera-thumb.jpg" alt="camera" />
+              <p class="text-center">Telecamera HD</p>
+            </div>
           </div>
         </div>
       </section>
@@ -191,7 +201,7 @@
       <section id="takes-two-game" class="d-flex align-items-end text-white">
         <div class="container">
           <div class="w-lg-1-3 my-5">
-            <img class="img-fluid w-lg-1-2" src="./img/it-takes-two-logo.png" alt="it-takes-two-logo" />
+            <img class="img-fluid w-lg-1-3-2" src="./img/it-takes-two-logo.png" alt="it-takes-two-logo" />
             <h2>Un'avventura cooperativa selvaggia ti attende</h2>
             <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
             <a href="#" type="button" class="btn-red rounded-pill text-decoration-none">Acquista ora</a>
@@ -272,7 +282,7 @@
       <!-- PS4 Items -->
       <section class="ps4-items">
         <div class="container">
-          <div class="row mb-4 align-items-end">
+          <div class="row mb-5 align-items-end">
             <div class="col-12 col-md-4">
               <img class="img-fluid" src="./img/ps4-slim-homepage-image-block.jpg" alt="ps4 slim" />
               <h2>PlayStation 4</h2>
@@ -297,7 +307,7 @@
       <!-- PS Plus -->
       <section id="ps-plus">
         <div class="container">
-          <div class="row mb-4 align-items-center">
+          <div class="row align-items-center">
             <div class="col-12 col-md-6 mb-4">
               <img class="img-fluid py-4 w-50" src="./img/ps-plus-logo.png" alt="logo PS Plus" />
               <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
@@ -318,7 +328,7 @@
           </div>
         </div>
         <div class="container">
-          <div class="row mb-4 gy-3">
+          <div class="row mb-4 gy-3 mb-5">
             <div class="col-12 col-md-4"><img class="img-fluid" src="./img/playstation-store-games-under-20-spotlight.jpg" alt="PSsaldi" /></div>
             <div class="col-12 col-md-4"><img class="img-fluid" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="PSsaldi" /></div>
             <div class="col-12 col-md-4"><img class="img-fluid" src="./img/playstation-store-free-to-play-spotlight.png" alt="PSsaldi" /></div>
@@ -329,7 +339,7 @@
       <section id="ps-now">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 col-md-6 text-white">
+            <div class="col-12 col-md-6 text-white mb-4">
               <img class="img-fluid py-4 w-50" src="./img/ps-now-logo-two-column.png" alt="logo PS Now" />
               <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
               <a href="#" type="button" class="btn-white rounded-pill text-decoration-none">Esplora PlayStation Plus</a>
@@ -343,8 +353,8 @@
       <!-- Social -->
       <section id="social">
         <div class="container">
-          <h2 class="text-center my-4">Seguici sui social media</h2>
-          <div class="row g-4 mb-4 mx-auto">
+          <h2 class="text-center mt-5">Seguici sui social media</h2>
+          <div class="row g-4 mb-4 mx-auto mb-5 p-md-5">
             <div class="col-6 col-sm-3"><img class="img-fluid" src="./img/twitter.jpg" alt="twitter" /></div>
             <div class="col-6 col-sm-3"><img class="img-fluid" src="./img/facebook.jpg" alt="facebook" /></div>
             <div class="col-6 col-sm-3"><img class="img-fluid" src="./img/instagram.jpg" alt="instagram" /></div>
@@ -353,6 +363,7 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer id="footer">
       <div class="container">
         <div class="row text-white align-items-center mt-5">
@@ -360,32 +371,32 @@
             <img class="py-4" src="./img/ps-footer.svg" alt="logo PS" />
             <p><i class="bi bi-globe"></i> Contry / Region: Italy</p>
           </div>
-          <div class="col-12 col-lg-6 d-flex flex-column flex-md-row justify-content-between py-4">
+          <div class="col-12 col-lg-6 d-flex flex-column flex-md-row justify-content-between py-4 gap-2">
             <div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
             </div>
             <div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
             </div>
             <div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
-              <div><a class="link-light" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
+              <div><a class="link-light text-decoration-none" href="#">Link footer n</a></div>
             </div>
           </div>
         </div>
-        <div class="text-white w-50 pb-5">
-          <img class="imf-fluid w-25" src="./img/sie-logo.svg" alt="logo sony" />
+        <div class="text-white py-5 w-lg-1-2">
+          <img class="imf-fluid w-25 py-4" src="./img/sie-logo.svg" alt="logo sony" />
           <p>
             Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono
             marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. Maggiori info
